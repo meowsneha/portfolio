@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(223, 208, 208);
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#Project{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+.project-heading h3{
+    font-size:2.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.project-heading h3:hover{
+    color: gray;
+}
+.project-heading span{
+    font-size: 12px;
+    color:red;
+    
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap; 
+      max-width: 1200px;   
+      margin:auto; 
+     
+     /* margin:10px; */
+
+}
+.project-box{
+    width: 350px;
+    height:250px;
+    border-radius: 5px; 
+    /* padding:1px solid #1f1b1b; */
+      margin: 10px;  
+    border: 2px solid burlywood;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap; 
+     box-shadow: 0px 0px 5px rgb(167, 89, 89);
+
+}
+.project-box p{
+    /* text-decoration: none; */
+    color:#AE43B6 ;
+     line-height: 1;
+     margin-top: 5px; 
+    
+}
+.project-box h4{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    margin-top: 10px;
+    /* text-decoration: none;
+     */
+
+}
+.project-box h4:hover{
+    color:gray;
+}
+.head-para{
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    flex-wrap: wrap;
+    margin-top:10px;
+    padding-left: 10px;
+   
+}
+
+i{
+    font-size: 40px;
+    color:black;
+    margin-top: 5px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-myself img{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    transform: rotate(270deg);
+    box-shadow: 0px 0px 2px rgb(142, 47, 63),0px 0px 5px rgb(142, 47, 63),0px 0px 
+    10px rgb(142, 47, 63),0px 0px 20px rgb(142, 47, 63),0px 0px 100px rgb(142, 47, 63);
+    
+}
+.img-myself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

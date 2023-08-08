@@ -1,0 +1,195 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color:  rgb(25, 25, 68);
+   
+   
+}
+.navbar{
+    background-color: rgb(25, 25, 68);
+    height:60px;
+    border-radius: 3px;
+    box-shadow: 2px 2px white;
+    border:2px solid transparent;
+
+   
+    
+    
+}
+.navbar:hover{
+    border:2px solid white;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin: 3px;
+    /* text-decoration: none; */
+    color: white;
+    font-size: 20px;
+   
+
+}
+.navbar ul{
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:white;
+    
+}
+.logo{
+    background-image: url(portfoliotim.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+}
+.logo:hover{
+    box-shadow:0 0 5px rgb(159, 88, 88),0 0 25px rgb(159, 88, 88),0 0 50px rgb(159, 88, 88),0 0
+    100px rgb(159, 88, 88),0 0 200px rgb(159, 88, 88) ;
+}
+.input{
+    float: right;
+    color:white;
+    border:2px solid black;
+    height: 30px;
+    /* width:40px;
+    width: 30px; */
+
+}
+.input:hover{
+    border:2px solid white;
+}
+.enter{
+    height: 30px;
+    color:white;
+}
+.border{
+    border:2px solid transparent;
+    
+}
+.border:hover{
+    border:2px solid white;
+    box-shadow: 0 0 5px rgb(148, 121, 121),0 0 25px rgb(148, 121, 121),0 0 50px rgb(148, 121, 121),0 0
+    100px rgb(148, 121, 121),0 0 200px rgb(148, 121, 121) ;
+}
+.photo-section{
+    
+    display: flex;;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.Home{
+    position: relative;
+    width:100%;
+    justify-content: space-between;
+    height: 100vh;
+    color:white;
+    display: flex;
+    
+    align-items: center;
+    /* background: url(sneha\ singh\ photo.jpg);
+    background-size: cover;
+    background-position: center; */
+     
+    padding:40px 10% 0 ;
+    justify-content: flex-start;
+
+
+}
+.home-content{
+    max-width:600px;
+}
+.home-content h3{
+    font-size:32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size:56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size:20px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+     background: transparent; 
+    border:2px solid #0ef;
+    border-radius: 50%;
+    font-size:20px;
+    color:#0ef;
+    text-decoration: none;
+     margin: 30px 15px 30px 0; 
+}
+
+.home-sci a:hover{
+    background: #0ef;
+    color:#0ef;
+    box-shadow: 0 0 20px #0ef;
+
+}
+
+.button{
+    display: inline-block;
+    padding:12px 28px;
+    border-radius: 40px;
+    background: #0ef;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.button:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0
+    100px cyan,0 0 200px cyan 
+}
+
+ .img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+} 
+.img-section{
+    background-image: url("sneha\ singh\ photo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px cyan,0 0 50px cyan,0 0
+    100px  cyan,0 0 200px  cyan ;
+
+  
+   
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+body{
+    height: 800px;
+}
+.select{
+    color:white;
+    font-size: 15px;
+    height: 30px;
+   
+}
+.select:hover{
+    background-color: white;
+    color:black;
+}
+
